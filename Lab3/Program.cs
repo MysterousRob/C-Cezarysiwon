@@ -15,7 +15,7 @@ class Program
         //Zadanie5();
         //Zadanie6();
         //Zadanie7();
-        Zadanie8();
+        //Zadanie8();
     }
 
     public static void Zadanie1()
@@ -166,7 +166,6 @@ class Program
         }
     }
     
-
     public static void Zadanie8()
     {
         char hex = 'B';
@@ -190,5 +189,7 @@ class Program
             Console.WriteLine("To nie jest cyfra szenastkowa");
             return;
         }
+
+        Console.WriteLine($"Wartość całkowita: {value}");
     } 
 }
