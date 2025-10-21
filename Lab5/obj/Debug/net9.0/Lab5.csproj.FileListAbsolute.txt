@@ -1,0 +1,15 @@
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\bin\Debug\net9.0\Lab5.exe
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\bin\Debug\net9.0\Lab5.deps.json
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\bin\Debug\net9.0\Lab5.runtimeconfig.json
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\bin\Debug\net9.0\Lab5.dll
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\bin\Debug\net9.0\Lab5.pdb
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\Lab5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\Lab5.AssemblyInfoInputs.cache
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\Lab5.AssemblyInfo.cs
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\Lab5.sourcelink.json
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\Lab5.dll
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\refint\Lab5.dll
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\Lab5.pdb
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\Lab5.genruntimeconfig.cache
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab5\obj\Debug\net9.0\ref\Lab5.dll
