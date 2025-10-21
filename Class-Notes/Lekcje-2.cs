@@ -4,7 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Example1();
+        Task1();
+        Task2();
+        Example2();
+        Example3();
+        Example4();
+        Example5();
+        Example6();
     }
 
     public static void Example1()
