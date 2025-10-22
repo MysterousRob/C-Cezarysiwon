@@ -16,7 +16,11 @@ class Program
         Console.WriteLine($"r2: {r2.Width}x{r2.Height}");
         Console.WriteLine($"r3 (square): {r3.Width}x{r3.Height}");
 
-        Rectangle rect = new Rectangle(5, 7);
+        Rectangle rect = new Rectangle(5, 7)
+        {
+            X = 2,
+            Y = 3
+        };
         Console.WriteLine($"Obwód prostokąta: {rect.GetPerimeter()}");
 
         rect.Move(3, 2);
@@ -31,6 +35,14 @@ class Program
 
         Console.WriteLine($"Obwód z metody: {rect.GetPerimeter()}");
         Console.WriteLine($"Obwód z właściwości: {rect.Perimeter}");
+
+        System.Console.WriteLine($"Pozycja początkowa: ({rect.X}, {rect.Y})");
+
+        rect.Move(4, 2);
+        System.Console.WriteLine($"Po przesunięciu o (4,2): ({rect.X}, {rect.Y})");
+
+        rect.Move(-10, 0);
+        System.Console.WriteLine($"Po nieprawidłowym przesunięciu: ({rect.X}, {rect.Y})");
     }
     
     public class Rectangle
@@ -41,7 +53,7 @@ class Program
         private int _x;
         private int _y;
 
-
+        // --- Konstructors --- //
         public Rectangle()
         {
         }
@@ -57,7 +69,7 @@ class Program
             Width = size;
             Height = size;
         }
-
+        // ------ Properties ------ // 
         public int X
         {
             get { return _x; }
