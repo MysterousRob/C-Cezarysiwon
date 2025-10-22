@@ -4,14 +4,14 @@ namespace Lab01;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        // --- Uncomment as you go for testing--- //
-        //Zadanie1();
-        //Zadanie2();
-        //Zadanie3();
-        //Zadanie4();
-    }
+    //static void Main(string[] args)
+    //{
+    //    // --- Uncomment as you go for testing--- //
+    //    //Zadanie1();
+    //    //Zadanie2();
+    //    //Zadanie3();
+    //    //Zadanie4();
+    //}
 
     public static void Zadanie1()
     {

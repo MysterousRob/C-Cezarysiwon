@@ -2,17 +2,17 @@ namespace Lab02;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        Example1();
-        Task1();
-        Task2();
-        Example2();
-        Example3();
-        Example4();
-        Example5();
-        Example6();
-    }
+    //static void Main(string[] args)
+    //{
+    //    Example1();
+    //    Task1();
+    //    Task2();
+    //    Example2();
+    //    Example3();
+    //    Example4();
+    //    Example5();
+    //    Example6();
+    //}
 
     public static void Example1()
     {
