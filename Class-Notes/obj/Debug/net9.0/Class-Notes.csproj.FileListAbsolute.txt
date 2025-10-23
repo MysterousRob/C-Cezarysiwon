@@ -18,3 +18,6 @@ D:\Users\robert.gasior\C-Cezarysiwon\Class-Notes\obj\Debug\net9.0\refint\Class-N
 D:\Users\robert.gasior\C-Cezarysiwon\Class-Notes\obj\Debug\net9.0\Class-Notes.pdb
 D:\Users\robert.gasior\C-Cezarysiwon\Class-Notes\obj\Debug\net9.0\Class-Notes.genruntimeconfig.cache
 D:\Users\robert.gasior\C-Cezarysiwon\Class-Notes\obj\Debug\net9.0\ref\Class-Notes.dll
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\obj\Debug\net9.0\Class-Notes.dll
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\obj\Debug\net9.0\refint\Class-Notes.dll
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\obj\Debug\net9.0\Class-Notes.pdb
