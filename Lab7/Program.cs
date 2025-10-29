@@ -8,31 +8,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Rectangle r1 = new Rectangle();
-        Rectangle r2 = new Rectangle(5, 8);
-        Rectangle r3 = new Rectangle(4);
+        Rectangle rect1 = Rectangle.Square(4);
+        Rectangle rect2 = Rectangle.DoubleHeight(3);
 
-        Console.WriteLine($"r1: {r1.Width}x{r1.Height}");
-        Console.WriteLine($"r2: {r2.Width}x{r2.Height}");
-        Console.WriteLine($"r3 (square): {r3.Width}x{r3.Height}");
+        System.Console.WriteLine($"Square -> Width: {rect1.Width}, Height: {rect1.Height}, Perimeter: {rect1.Perimeter}, ");
+        System.Console.WriteLine($"DoublHeight -> {rect2.Width}, Height: {rect2.Height}, Perimeter: {rect2.Perimeter}");
 
-        Rectangle rect = new Rectangle(5, 7);
-        Console.WriteLine($"Obwód prostokąta: {rect.GetPerimeter()}");
-
-        rect.Move(3, 2);
-        Console.WriteLine("Przesunięto prostokąt o (3,2)");
-
-        rect.X = 10;
-        rect.Y = 15;
-        Console.WriteLine($"Pozycja: ({rect.X}, {rect.Y})");
-
-        rect.X = -5;
-        Console.WriteLine($"Po zmianie X na -5: ({rect.X}, {rect.Y})");
-
-        Console.WriteLine($"Obwód z metody: {rect.GetPerimeter()}");
-        Console.WriteLine($"Obwód z właściwości: {rect.Perimeter}");
+        System.Console.WriteLine($"Maksymalny rozmiar prostokąta: {Rectangle.MaxSize}");
     }
-    
+
     public class Rectangle
     {
         public int Width;
@@ -41,7 +25,9 @@ class Program
         private int _x;
         private int _y;
 
+        public static readonly int MaxSize = 1000;
 
+        // --- Konstructors --- //
         public Rectangle()
         {
         }
@@ -57,7 +43,7 @@ class Program
             Width = size;
             Height = size;
         }
-
+        // ------ Properties ------ // 
         public int X
         {
             get { return _x; }
@@ -67,7 +53,7 @@ class Program
                     _x = value;
             }
         }
-        
+
         public int Y
         {
             get { return _y; }
@@ -79,7 +65,7 @@ class Program
                 }
             }
         }
-        
+
         public int Perimeter
         {
             get
@@ -92,11 +78,27 @@ class Program
         {
             return 2 * (Width + Height);
         }
-        
+
         public void Move(int dx, int dy)
         {
             X += dx;
             Y += dy;
+        }
+        public static Rectangle Square(int size)
+        {
+            return new Rectangle()
+            {
+                Width = size,
+                Height = size
+            };
+        }
+        public static Rectangle DoubleHeight(int width)
+        {
+            return new Rectangle()
+            {
+                Width = width,
+                Height = width * 2
+            };
         }
     }
 }

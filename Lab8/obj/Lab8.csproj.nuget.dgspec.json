@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Class-Notes\\Class-Notes.csproj": {}
+    "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Lab8\\Lab8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Class-Notes\\Class-Notes.csproj": {
+    "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Lab8\\Lab8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Class-Notes\\Class-Notes.csproj",
-        "projectName": "Class-Notes",
-        "projectPath": "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Class-Notes\\Class-Notes.csproj",
+        "projectUniqueName": "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Lab8\\Lab8.csproj",
+        "projectName": "Lab8",
+        "projectPath": "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Lab8\\Lab8.csproj",
         "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Class-Notes\\obj\\",
+        "outputPath": "C:\\Users\\rober\\Desktop\\Cezary-Siwon-C#\\Lab8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
