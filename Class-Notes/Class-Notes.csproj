@@ -6,7 +6,7 @@
     <RootNamespace>Class_Notes</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Lekcje3.Program</StartupObject>
+    <StartupObject>Lekcje4.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
