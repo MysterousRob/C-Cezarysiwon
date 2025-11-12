@@ -1,0 +1,5 @@
+D:\Users\robert.gasior\wsei-programming-in-csharp-25\Lab06\obj\Debug\net9.0\Lab06.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\robert.gasior\wsei-programming-in-csharp-25\Lab06\obj\Debug\net9.0\Lab06.AssemblyInfoInputs.cache
+D:\Users\robert.gasior\wsei-programming-in-csharp-25\Lab06\obj\Debug\net9.0\Lab06.AssemblyInfo.cs
+D:\Users\robert.gasior\wsei-programming-in-csharp-25\Lab06\obj\Debug\net9.0\Lab06.csproj.CoreCompileInputs.cache
+D:\Users\robert.gasior\wsei-programming-in-csharp-25\Lab06\obj\Debug\net9.0\Lab06.sourcelink.json
