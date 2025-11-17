@@ -1,50 +1,56 @@
-namespace Lab06;
-
-public class Rectangle 
+namespace Lab06
 {
-    private double _width;
-    private double _height;
+    public class Rectangle
+    {
+        private double _width;
+        private double _height;
 
-    public double Area
-    {
-        get
+        public double Area => _width * _height;
+
+        public double Perimeter => 2 * (_width + _height);
+
+        public double Width
         {
-            return _width * _height;
-        }
-    }
-    public double Width
-    {
-        get { return _width; }
-        set
-        {
-            if (value <= 0)
+            get { return _width; }
+            set
             {
-                return;
+                if (value <= 0)
+                {
+                    return;
+                }
+                _width = value;
             }
-            _width = value;
         }
-    }
-    public double Height
-    {
-        get { return _height; }
-        set
+
+        public double Height
         {
-            if (value <= 0)
+            get { return _height; }
+            set
             {
-                return;
+                if (value <= 0)
+                {
+                    return;
+                }
+                _height = value;
             }
-            _height = value;
         }
-    }
 
-    public Rectangle(double height, double width)
-    {
-        this._height = height;
-        this._width = width;
-    }
+        public Rectangle(double height, double width)
+        {
+            _height = height;
+            _width = width;
+        }
 
-    public static double GetHeight()
-    {
-        return _height;
+        public double GetHeight()
+        {
+            return _height;
+        }
+
+        public static string Unit = "cm";
+
+        public static Rectangle Squere(double side)
+        {
+            return new Rectangle(side, side);
+        }
     }
 }

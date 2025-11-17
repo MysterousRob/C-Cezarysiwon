@@ -26,7 +26,7 @@ namespace Lab06.Task03 {
                 case 2:
                     _coin2++;
                     break;
-                case 3:
+                case 5:
                     _coin5++;
                     break;
                 default:

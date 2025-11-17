@@ -10,9 +10,15 @@ namespace Lab06;
 
 class Program
 {
+    //uncoment to test
     static void Main(string[] args)
     {
-        
+        //DemoRectangle();
+        //CircleDemo();
+        //Stringdemo();
+        //ComputerDemo();
+        //WeightDemo();
+        //VendingMachineDemo();
     }
     public static void StaticDemo()
     {
@@ -22,17 +28,17 @@ class Program
     public static void DemoRectangle()
         {
             Rectangle squere = Rectangle.Squere(5);
-        string result = string.Concat("abc", "def");
-        Rectangle rect = new Rectangle(100, 200.5);
-        Console.WriteLine(Rectangle.Unit);
-        Console.WriteLine(rect.Height);
-        Console.WriteLine(rect.Width); // wywołanie akcesora get
-        rect.Width = -5; // wywołanie akcesora set
-        Console.WriteLine(rect.Width);
-        rect.Height = -10;
-        Console.WriteLine(rect.Height);
-        Console.WriteLine(rect.Area);
-        Console.WriteLine(rect.Perimeter);
+            string result = string.Concat("abc", "def");
+            Rectangle rect = new Rectangle(100, 200.5);
+            Console.WriteLine(Rectangle.Unit);
+            Console.WriteLine(rect.Height);
+            Console.WriteLine(rect.Width); // wywołanie akcesora get
+            rect.Width = -5; // wywołanie akcesora set
+            Console.WriteLine(rect.Width);
+            rect.Height = -10;
+            Console.WriteLine(rect.Height);
+            Console.WriteLine(rect.Area);
+            Console.WriteLine(rect.Perimeter);
         }
 
     public static void CircleDemo()
@@ -128,4 +134,7 @@ class Program
         machine.InsertCoin(5);
         machine.InsertCoin(1);
         machine.InsertCoin(7);
+
+        Console.WriteLine($"Wartość monet w automacie: {machine.Amount}");
     }
+}
