@@ -21,3 +21,10 @@ D:\Users\robert.gasior\C-Cezarysiwon\Class-Notes\obj\Debug\net9.0\ref\Class-Note
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\obj\Debug\net9.0\Class-Notes.dll
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\obj\Debug\net9.0\refint\Class-Notes.dll
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\obj\Debug\net9.0\Class-Notes.pdb
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\bin\Debug\net9.0\Class-Notes.exe
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\bin\Debug\net9.0\Class-Notes.deps.json
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\bin\Debug\net9.0\Class-Notes.runtimeconfig.json
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\bin\Debug\net9.0\Class-Notes.dll
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\bin\Debug\net9.0\Class-Notes.pdb
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\obj\Debug\net9.0\Class-Notes.genruntimeconfig.cache
+C:\Users\rober\Desktop\Cezary-Siwon-C#\Class-Notes\obj\Debug\net9.0\ref\Class-Notes.dll

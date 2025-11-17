@@ -1,6 +1,6 @@
 using System;
 
-namespace Lekcje3;
+namespace Lab03;
 
 
 class Program

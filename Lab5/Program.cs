@@ -13,7 +13,7 @@ class Program
         //Zadanie2();
         //Zadanie3();
         //Zadanie4();
-        Zadanie5();
+        //Zadanie5();
     }
         // ------- ZAD 1 ------- //
     public static void Zadanie1()
