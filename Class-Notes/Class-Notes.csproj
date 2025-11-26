@@ -6,7 +6,21 @@
     <RootNamespace>Class_Notes</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+<<<<<<< HEAD
     <StartupObject>Lekcje-6.Program</StartupObject>
+=======
+
+    <!-- ill make it easy for all u fucks just coppy it outside the comment block
+    <StartupObject>Lab01.Program</StartupObject>
+    <StartupObject>Lab02.Program</StartupObject>
+    <StartupObject>Lab03.Program</StartupObject>
+    <StartupObject>Lab04.Program</StartupObject>
+    <StartupObject>Lab05.Program</StartupObject>
+
+    and pls do not FORGET to delete otherwise it will NOT work
+    -->
+    <StartupObject>Lab05.Program</StartupObject>
+>>>>>>> 5d8e1a99a3ce6453f809535f67dca52c33edfa44
   </PropertyGroup>
 
 </Project>

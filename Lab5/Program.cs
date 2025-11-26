@@ -13,9 +13,8 @@ class Program
         //Zadanie2();
         //Zadanie3();
         //Zadanie4();
-        Zadanie5();
+        //Zadanie5();
     }
-        // ------- ZAD 1 ------- //
     public static void Zadanie1()
     {
         double liczba = 12.34;
@@ -29,7 +28,6 @@ class Program
         Console.WriteLine($"Wartość argumentu = {value}");
     }
 
-        // ---- ZAD 2 ---- //
     public static void Zadanie2()
     {
         Console.Write("Podaj promień koła: ");
@@ -47,7 +45,6 @@ class Program
         return Math.PI * r * r;
     }
 
-        // ------- ZAD 3 ------ //
     public static void Zadanie3()
     {
         Console.WriteLine("Domyślne wartośći: ");
@@ -66,7 +63,6 @@ class Program
         return a * x * x + b * x + c;
     }
 
-        // ------ ZAD 4 ------ //
     public static void Zadanie4()
     {
         System.Console.WriteLine("=== Obliczone równiana kwadratowego f(x) = a·x² + b·x + c ===");

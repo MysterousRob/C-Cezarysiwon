@@ -1,36 +1,65 @@
 using System;
 using System.Diagnostics;
 
-namespace Lekcje5;
+namespace Lab05;
 
-
-class Program {
-    static void Main(string[] args)  
+class Program
+{
+    static string[] options = new string[] {"4", "5", "6", "nie można obliczyć"};
+    static void Main(string[] args)
     {
         int option = 0;
+        Console.WriteLine("Ile jest 2 + 3?");
+
         while (true)
         {
             PrintMenu(option);
-            var key = Console.ReadKey();
-            if (key.Key == ConsoleKey.UpArrow)
+
+            var key = Console.ReadKey(true);
+
+            // --- MOVING UP ---
+            if (key.Key == ConsoleKey.UpArrow && option > 0)
             {
                 option--;
             }
-            if (key.Key == ConsoleKey.DownArrow)
+
+            // --- MOVING DOWN ---
+            if (key.Key == ConsoleKey.DownArrow && option < options.Length - 1)
             {
                 option++;
+            }
+
+            // --- EXIT ON ESC ---
+            if (key.Key == ConsoleKey.Escape)
+            {
+                Console.WriteLine("\nZakończono program (ESC).");
+                break;
+            }
+
+            // --- CONFIRM ENTER ---
+            if (key.Key == ConsoleKey.Enter)
+            {
+                if (option == 1) // correct answer index = 1
+                {
+                    Console.WriteLine("\nPoprawna odpowiedź!");
+                    break;
+                }
+
+                Console.WriteLine("\nBłąd, spróbuj jeszcze raz.");
+                Console.WriteLine("Naciśnij cokolwiek, aby kontynuować...");
+                Console.ReadKey(true);
             }
         }
     }
 
     public static void PrintMenu(int option)
     {
-        var option = new string [] {"Opcja 1", "Opcja 2", "Opcja 3", "Opcja 4"};
         Console.Clear();
-        Console.SetCursorPosition(left: 0, top: 0);
+        Console.SetCursorPosition(0, 0);
+
         for (int i = 0; i < options.Length; i++)
         {
-            if (i == options)
+            if (i == option)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine(options[i]);
@@ -40,8 +69,26 @@ class Program {
             {
                 Console.WriteLine(options[i]);
             }
-        }   
+        }
+    }
 
+    public static double Add(double x, double y)
+    {
+        return x + y;
+    }
 
+    public static int Reszta(int a, int b)
+    {
+        return a % b;
+    }
+
+    public static int[] EvenArray(int n)
+    {
+        int[] result = new int[n / 2 + 1];
+        for (int i = 0, a = 0; i < result.Length; i++, a += 2)
+        {
+            result[i] = a;
+        }
+        return result;
     }
 }
