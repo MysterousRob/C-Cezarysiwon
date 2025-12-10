@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Class-Notes")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Lab11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb07ab7b8b48dec8b535763c58858969f00f6d63")]
-[assembly: System.Reflection.AssemblyProductAttribute("Class-Notes")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Class-Notes")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83b9dcffae06d97406c452a8c97a60aadcac6dc1")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lab11")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Lab11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.

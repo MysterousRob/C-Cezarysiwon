@@ -1,3 +1,5 @@
+namespace Lab11;
+
 public static class StudentDatabase
 {
     public static Dictionary<char, List<Student>> GroupByFirstLetter(List<Student> students)
@@ -9,7 +11,7 @@ public static class StudentDatabase
             char first = char.ToUpper(s.Name[0]);
 
             if (!result.ContainsKey(first))
-                result[first] = new List<Student>(); 
+                result[first] = new List<Student>();
 
             result[first].Add(s);
         }

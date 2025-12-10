@@ -1,0 +1,5 @@
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.AssemblyInfoInputs.cache
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.AssemblyInfo.cs
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.csproj.CoreCompileInputs.cache
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.sourcelink.json
