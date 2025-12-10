@@ -53,7 +53,24 @@ public static class SearchPoint
             {
                 int i = mid;
                 while (i >= 0 && sorted[i].Points == points)
+                {
+                    found.Add(i);
+                    i--;
+                }
+                i = mid + 1;
+                while (i < sorted.Count && sorted[i].Points == points)
+                {
+                    found.Add(i);
+                    i++;
+                }
+                found.Sort();
+                return found;
             }
+            else if (sorted[mid].Points < points)
+                left = mid + 1;
+            else 
+                reight = mid - 1;
         }
+        return found;
     }
 }
