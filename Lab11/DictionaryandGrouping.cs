@@ -1,3 +1,8 @@
+using System;
+namespace Lab11;
+
+
+
 public static class StudentDatabase
 {
     public static Dictionary<char, List<Student>> GroupByFirstLetter(List<Student> students)

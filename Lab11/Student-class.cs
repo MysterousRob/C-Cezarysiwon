@@ -1,3 +1,7 @@
+namespace Lab11;
+using System;
+
+
 public class Student
 {
     public string Name { get; set; }
@@ -11,7 +15,7 @@ public class Student
 
     public override string ToString()
     {
-        return $"{Name} ({Points} pkt);
+        return $"{Name} ({Points} pkt)";
     }
 }
 
@@ -69,7 +73,7 @@ public static class SearchPoint
             else if (sorted[mid].Points < points)
                 left = mid + 1;
             else 
-                reight = mid - 1;
+                right = mid - 1;
         }
         return found;
     }

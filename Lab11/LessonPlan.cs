@@ -1,3 +1,5 @@
+namespace Lab11;
+
 public class LessonPlan
 {
     private ICollection<string> topics = new SortedSet<string>();
