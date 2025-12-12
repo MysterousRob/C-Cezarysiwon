@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab11\obj\Debug\net9.0\Lab11.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab11\obj\Debug\net9.0\Lab11.AssemblyInfoInputs.cache
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab11\obj\Debug\net9.0\Lab11.AssemblyInfo.cs
@@ -13,3 +14,10 @@ C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab11\obj\Debug\net9.0\refint\Lab11.dll
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab11\obj\Debug\net9.0\Lab11.pdb
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab11\obj\Debug\net9.0\Lab11.genruntimeconfig.cache
 C:\Users\rober\Desktop\Cezary-Siwon-C#\Lab11\obj\Debug\net9.0\ref\Lab11.dll
+=======
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.AssemblyInfoInputs.cache
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.AssemblyInfo.cs
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.csproj.CoreCompileInputs.cache
+D:\Users\robert.gasior\C-Cezarysiwon\Lab11\obj\Debug\net9.0\Lab11.sourcelink.json
+>>>>>>> b2b96c330f73b591c2b931250714e164ed255c79
