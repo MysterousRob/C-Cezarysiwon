@@ -1,8 +1,12 @@
 namespace Lab11;
 
+using System.Collections.Generic;
+
+
+
 public class LessonPlan
 {
-    private ICollection<string> topics = new SortedSet<string>();
+    private readonly SortedSet<string> topics = new();
 
     public void AddTopic(string topic)
     {
@@ -14,10 +18,8 @@ public class LessonPlan
         topics.Remove(topic);
     }
 
-    public void Print()
+    public IReadOnlyCollection<string> GetTopics()
     {
-        System.Console.WriteLine("Lesson topics:");
-        foreach (var t in topics) 
-            System.Console.WriteLine("-" + t);
+        return topics;
     }
 }
